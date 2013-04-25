@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="92dip"
+  android:padding="10dip" 
+  android:orientation="horizontal">
+  
+  <ImageView
+   android:layout_width="72dip"
+   android:layout_height="72dip"
+   android:id="@+id/productImage"
+  />
+  
+  <TextView
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="fill_parent"
+  	 android:textColor="#7b6d62"
+  	 android:id="@+id/productName"
+  	 android:layout_marginLeft="10dip"
+  />
+</LinearLayout>
